@@ -1,0 +1,74 @@
+html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    background: rgb(225, 225, 225);
+    padding: 60px;
+    border-bottom: 4px solid rgb(187, 200, 235);
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+form {
+   width: 40%;
+   margin: 0 auto;
+}
+
+label {
+    font-size: 20px;
+    text-align: center;
+}
+
+input {
+    padding: 5px 15px;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.results {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    padding-top: 50px;
+}
+
+li {
+    list-style: none;
+    margin: 20px;
+    display: flex;    
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    border-radius: 5px;
+    background-color: rgb(187, 200, 235);
+    padding: 5px 10px;
+}
